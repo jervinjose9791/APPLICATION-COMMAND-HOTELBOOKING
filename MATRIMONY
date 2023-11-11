@@ -1,0 +1,137 @@
+import java.util.Scanner;
+
+class Matrimony {
+    static Scanner s = new Scanner(System.in);
+    public static void main (String[] args) throws Exception
+    {
+        System.out.println(" 111          111        aaa      TTTTTTTTTTTTTT  RRRRRRRR    IIIIIIIIIIIII  111          111  OOOOOOO   NNNN       NN  YY       YY  ");
+        Thread.sleep(500);
+        System.out.println(" 1111        1111       aa aa           TTT       RR     R         III       1111        1111  O     O   NNN NN     NN   YY     YY   ");
+        Thread.sleep(500);
+        System.out.println(" 111 11     11111      aa   aa          TTT       RR     R         III       111 11     11111  O     O   NNN  NN    NN    YY   YY    ");
+        Thread.sleep(500);
+        System.out.println(" 111  11   11 111     aa     aa         TTT       RRRRRRRR         III       111  11   11 111  O     O   NNN   NN   NN     YY YY     ");
+        Thread.sleep(500);
+        System.out.println(" 111   11 11  111    aaaaaaaaaaa        TTT       RR    RR         III       111   11 11  111  O     O   NNN    NN  NN      YYY      ");
+        Thread.sleep(500);
+        System.out.println(" 111    11    111   aa         aa       TTT       RR     RR        III       111    11    111  O     O   NNN     NN NN       YY      ");
+        Thread.sleep(500);
+        System.out.println(" 111          111  aa           aa      TTT       RR      RR       III       111          111  O     O   NNN      NNNN       YY      ");
+        Thread.sleep(500);
+        System.out.println(" 111          111 aa             aa     TTT       RR       RR  IIIIIIIIIIIII 111          111  OOOO00O   NNN       NNN       YY                                                                                             \t\t\t\t\t\t\t\t\t\t\t\t\t     [Developer:JERVIN JOSE A.L]");
+        System.out.print("LOADING.");Thread.sleep(200);System.out.print("."); Thread.sleep(200);System.out.print(".");Thread.sleep(200);System.out.print(".");Thread.sleep(200);System.out.print(".");Thread.sleep(200);System.out.print(".");Thread.sleep(200);System.out.print(".");Thread.sleep(200);System.out.println(".");Thread.sleep(200);
+        Thread.sleep(500);
+        System.out.println("WELCOME TO MATRIMONY ");
+        Thread.sleep(1000);
+        System.out.println("YOU ARE STEPPING INTO HELL SO WATCH YOUR FOOTSTEPS");
+        Thread.sleep(2000);
+        System.out.println("WAIT....LET ME START THE INTERVIEW ");
+        Thread.sleep(500);
+        System.out.println("WHAT IS YOUR NAME : ");
+        String name=s.next();
+        System.out.println("Welcome "+name);
+        System.out.println("GENDER ::\n You want (1):male or (2):female choose");
+        int gender=s.nextInt();
+        if(gender==1)
+        {
+            System.out.println("OOh!!! you have chosen male ,,you can't change it back so confirm it\nEnter (1) to confirm ");
+            int confirm=s.nextInt();
+            if (confirm==1)
+            {
+                System.out.println("final question ..\n What is your AGE ??");
+                int age=s.nextInt();
+                if(age>=18 && age<50)
+                {
+                    System.out.println("You are Elegible for the marriage!!\n check the pic of th bribe below!");
+                    Thread.sleep(1000);
+                    System.out.println("happy married lyf and come again");
+                }
+                else if(age<18 && age>10)
+                {
+                    System.out.println("You are too young for the dream..");
+                    Thread.sleep(500);
+                    System.out.println("HOLD YOUR HORSE TILL 18...");
+                    Thread.sleep(1000);
+                    System.out.println("Hence, you are not eligible for the marriage come back after 18+");
+
+                }
+                else if(50<age)
+                {
+                    System.out.println("Damm you geezer!! You are far too old for another marriage");
+                    Thread.sleep(500);
+                    System.out.println("WE can't find bribe for your age ...");
+                }
+                else if(age<10)
+                {
+                    System.out.println("YOU HAVE ENTERED A WRONG APPLICATION PLEASE CLOSE IT BEFORE YOUR PARENTS SEE'S IT");
+                    Thread.sleep(1000);
+                    System.out.println("This is the Warnning !!!!\n now close your eye's count to 10");
+                    Thread.sleep(1000);
+                    System.out.println("COUNT WITH ME 10 \n 9 \n 8\n Close your dammm!! EYE !! \n1 ");
+                    Thread.sleep(1000);
+                    System.out.println("SORRY STILL NO FOR THE MARRIGE ");
+                }
+                else
+                    System.out.println("this application is not for you... \n this is only for humans...");
+            }
+            else
+                System.out.println("Hoo!! so, you have changed your mind");
+        }
+        else if(gender==2)
+        {
+            System.out.println("OOh!!! you have chosen Female ,,you can't change it back so confirm it\n Enter (1) To confirm it");
+            int confirm1=s.nextInt();
+            if(confirm1==1)
+            {
+                System.out.println("final question ..\n What is your AGE ??");
+                int age=s.nextInt();
+                if(age>=18 && age<50)
+                {
+                    System.out.println("You are Elegible for the marriage!!\n check the pic of th bribe below!");
+                    Thread.sleep(1000);
+                    System.out.println("happy married lyf and come again");
+                }
+                else if(age<18 && age>10)
+                {
+                    System.out.println("You are too young for the dream..");
+                    Thread.sleep(1000);
+                    System.out.println("HOLD YOUR HORSE TILL 18...");
+                    Thread.sleep(1000);
+                    System.out.println("Hence, you are not eligible for the marriage come back after 18+");
+                }
+                else if(50<age)
+                {
+                    System.out.println("Damm you geezer!! You are far too old for another marriage");
+                    Thread.sleep(1000);
+                    System.out.println("WE can't find bribe for your age ...");
+                }
+                else if(age<10)
+                {
+                    System.out.println("YOU HAVE ENTERED A WRONG APPLICATION PLEASE CLOSE IT BEFORE YOUR PARENTS SEE'S IT");
+                    Thread.sleep(1000);
+                    System.out.println("This is the Warnning !!!!\n now close your eye's count to 10");
+                    Thread.sleep(1000);
+                    System.out.println("COUNT WITH ME 10 \n 9 \n 8\n Close your dammm!! EYE !! \n1 ");
+                    Thread.sleep(1000);
+                    System.out.println("SORRY STILL NO FOR THE MARRIGE ");
+                }
+                else
+                    System.out.println("this application is not for you ../n this is only for humans...");
+            }
+            else
+                System.out.println("LOOKS LIKE YOU HAVE CHANGED YOU MIND");
+
+        }
+        else
+        {
+            System.out.println("Wow!! you have found the hidden feature of the matrimony..");
+            Thread.sleep(500);
+            System.out.println("If you dont have any interest in both gender..");
+            Thread.sleep(500);
+            System.out.println("Dont bother opening this app again!!!");
+        }
+
+    }
+}
+
+
